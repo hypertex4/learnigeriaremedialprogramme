@@ -1,0 +1,11 @@
+
+RewriteEngine On
+
+# add "#" in front if you are going to install it in subfolder. Otherwise, remove "#".
+#RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php [QSA,L]
+SetEnv HTTP_MY_SECRET "dc698f132cd0efe8584130b0cce9fa84"

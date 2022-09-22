@@ -1,0 +1,13 @@
+{
+    "require": {
+		"firebase/php-jwt": "^5.0",
+		"ramsey/uuid": "^4.0",
+      "ext-json": "*",
+      "ext-apache": "*",
+      "ext-curl": "*",
+        "mailjet/mailjet-apiv3-php": "^1.5",
+        "phpoffice/phpspreadsheet": "^1.19",
+      "ext-mysqli": "*",
+        "mpdf/mpdf": "^8.1"
+    }
+}
